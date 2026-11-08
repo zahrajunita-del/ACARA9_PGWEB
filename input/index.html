@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Input Data Koperasi</title>
+</head>
+<body>
+
+    <h2>Form Input Data Koperasi</h2>
+
+    <form action="../input.php" method="POST">
+
+        <label>Nama Koperasi:</label><br>
+        <input type="text" name="nama_koperasi" required>
+        <br><br>
+
+        <label>Kecamatan:</label><br>
+        <input type="text" name="kecamatan" required>
+        <br><br>
+
+        <label>Alamat:</label><br>
+        <textarea name="alamat" required></textarea>
+        <br><br>
+
+        <label>Longitude:</label><br>
+        <input type="number" step="any" name="longitude" required>
+        <br><br>
+
+        <label>Latitude:</label><br>
+        <input type="number" step="any" name="latitude" required>
+        <br><br>
+
+        <button type="submit">Submit</button>
+
+    </form>
+
+    <br>
+
+    <a href="../index.php">Kembali</a>
+
+</body>
+</html>
